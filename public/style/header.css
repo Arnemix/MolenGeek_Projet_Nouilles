@@ -101,6 +101,7 @@ nav ul li a {
   flex-wrap: wrap;
   /* padding: 50px; */
   position: relative;
+  align-items: center;
 }
 .barberImage img {
   width: 85%;
@@ -211,7 +212,7 @@ nav ul li a {
     padding: 15px 25px;
     border: 0px;
 
-    font-size: 0.9vw;
+    /* font-size: 0.9vw; */
   }
   & .red {
     color: red;
@@ -263,6 +264,9 @@ nav ul li a {
   .sectionPortfolioContent img {
     margin: 10px;
   }
+  .pricingBox {
+    padding: 10px;
+  }
 }
 
 @media (max-width: 768px) and (min-width: 425px) {
@@ -311,7 +315,7 @@ nav ul li a {
   .gris {
     font-size: 5vw;
   }
-  .headerContent > *{
+  .headerContent > * {
     margin: 5px 0px;
   }
   .headerContent .iAm {
@@ -323,5 +327,19 @@ nav ul li a {
   .headerContent button {
     font-size: 1.4vw;
   }
-  
+  .sectionPortfolioContent img {
+    /* width: 35%; */
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 425px) {
+  #headerBackground {
+    height: 250px;
+  }
+
+  .sectionAboutMeContent {
+    & p {
+    }
+  }
 }
