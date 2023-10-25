@@ -1,0 +1,157 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  font-family: "Tilt Neon", sans-serif;
+}
+
+h2 {
+  font-size: 5vmin;
+  color: rgb(107, 68, 144);
+}
+
+h3 {
+  color: rgb(107, 68, 144);
+}
+
+.sectionTitle {
+    /* position: absolute; */
+    left: 50%;
+    /* margin-top: 50px; */
+    /* top: 3%; */
+    position: relative;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 30px 0px;
+  }
+
+/*? HEADER SECTION */
+
+#headerBackground {
+  background-image: linear-gradient(to bottom, transparent, transparent, white),
+    url(../assets/images/header.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100vw;
+  height: 100vh;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2%;
+  margin-top: 3%;
+  margin-right: 8%;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2vmin;
+}
+
+.headerContent {
+  transform: translate(30%, 40%);
+}
+
+.headerContent > * {
+  margin: 15px 0px;
+}
+.gris {
+  color: hsl(0, 1%, 27%);
+  font-size: 4vw;
+  font-weight: bolder;
+}
+.headerContent .iAm {
+  font-size: 4vw;
+  font-weight: bolder;
+  color: hsl(0, 2%, 22%);
+}
+.headerContent p {
+  letter-spacing: 0.6vw;
+  font-size: 1.3vw;
+}
+.headerContent button {
+  color: white;
+  background-color: rgb(107, 68, 144);
+  padding: 15px 30px;
+  border: 0px;
+  border-radius: 25px;
+  font-size: 1vw;
+}
+
+/* ?  ABOUT ME SECTION*/
+
+.sectionAboutMe {
+  display: flex;
+  /* padding: 150px; */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.barberImage img {
+  width: 85%;
+}
+.sectionAboutMeContent {
+  width: 50%;
+}
+.sectionAboutMeContent p {
+  /* max-width: 700px; */
+  font-size: 2vmin;
+}
+.sectionAboutMeContent h2 {
+  color: rgb(107, 68, 144);
+}
+.sectionAboutMeContent > * {
+  margin: 25px 0px;
+}
+
+.sectionAboutMeContent button {
+  color: rgb(107, 68, 144);
+  background-color: white;
+  border-radius: 25px;
+  padding: 15px 30px;
+  padding: 15px 30px;
+  padding: 15px 30px;
+  border: 0px;
+  border: 1px solid rgb(107, 68, 144);
+}
+
+/* ? SECTION SERVICE */
+
+.sectionService {
+  /* background-color: red; */
+  margin-top: 200px;
+  padding: 40px;
+}
+
+
+
+.sectionServiceContent {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.serviceBox {
+  border: 0.5px solid rgb(217, 214, 214);
+  padding: 40px 60px;
+  text-align: center;
+  margin: 15px;
+  margin-left: 30px;
+
+  & img {
+    width: 50%;
+  }
+}
+
+.sectionPortfolio {
+  margin-top: 150px;
+  padding: 40px;
+}
