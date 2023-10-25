@@ -162,7 +162,7 @@ nav ul li a {
 /* ? SECTION PORTFOLIO */
 
 .sectionPortfolio {
-  margin-top: 150px;
+  margin-top: 120px;
   padding: 40px;
 }
 
@@ -338,8 +338,13 @@ nav ul li a {
     height: 250px;
   }
 
+  .barberImage {
+    width: 55%;
+  }
   .sectionAboutMeContent {
+    left: 3%;
     & p {
+      font-size: 16px;
     }
   }
 }
