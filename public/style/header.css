@@ -1,7 +1,10 @@
-* {
+.amineDiv > * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  overflow-x: hidden;
+}
+* {
   overflow-x: hidden;
 }
 
@@ -10,12 +13,12 @@
   font-family: "Tilt Neon", sans-serif;
 }
 
-h2 {
+.amineDiv h2 {
   font-size: 5vmin;
   color: rgb(107, 68, 144);
 }
 
-h3 {
+.amineDiv h3 {
   color: rgb(107, 68, 144);
 }
 
@@ -43,10 +46,10 @@ h3 {
 
 .contentPortfolio {
   position: absolute;
-  top: 10px;
-  left: 9px;
+  top: 12px;
+  left: 15px;
   width: 301px;
-  height: 301px;
+  height: 305px;
   background-color: rgba(255, 255, 255, 0.838);
   display: flex;
   flex-direction: column;
@@ -65,15 +68,8 @@ h3 {
 }
 .contentPortfolio:hover {
   opacity: 1;
-
-  /* transition: opacity 0.5s ease 0s; */
-
-  overflow: hidden;
+  /* overflow: hidden; */
 }
-
-/* .contentPortfolio:hover{
-
-} */
 
 /*? HEADER SECTION */
 
@@ -86,20 +82,25 @@ h3 {
   height: 100vh;
 }
 
-nav ul {
+.amineDiv nav ul {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 2%;
   margin-top: 3%;
   margin-right: 8%;
+  list-style: none;
 }
 
-nav ul li a {
+.amineDiv nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
   font-size: 2vmin;
+}
+
+.amineDiv nav ul li a:hover {
+  color: rgb(107, 68, 144);
 }
 
 .headerContent {
@@ -202,7 +203,7 @@ nav ul li a {
 /* ? SECTION PORTFOLIO */
 
 .sectionPortfolio {
-  margin-top: 120px;
+  margin-top: 20px;
   padding: 40px;
 }
 
