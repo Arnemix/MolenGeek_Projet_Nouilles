@@ -1,0 +1,414 @@
+.amineDiv > * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+* {
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  font-family: "Tilt Neon", sans-serif;
+}
+
+.amineDiv h2 {
+  font-size: 5vmin;
+  color: rgb(107, 68, 144);
+}
+
+.amineDiv h3 {
+  color: rgb(107, 68, 144);
+}
+
+.sectionTitle {
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin: 30px 0px;
+}
+.fa-solid {
+  color: white;
+  font-size: 22px;
+}
+#cross {
+  display: none;
+}
+
+.sectionPortfolio img {
+  position: relative;
+}
+.wrapper {
+  position: relative;
+}
+
+.contentPortfolio {
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  width: 300px;
+  height: 305px;
+  background-color: rgba(255, 255, 255, 0.838);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  /* border-radius: 15%; */
+
+  & h1 {
+    color: rgb(107, 68, 144);
+  }
+}
+.contentPortfolio:hover {
+  opacity: 1;
+}
+
+/*? HEADER SECTION */
+
+#headerBackground {
+  background-image: linear-gradient(to bottom, transparent, transparent, white),
+    url(../assets/images/header.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100vw;
+  height: 100vh;
+}
+
+.amineDiv nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2%;
+  margin-top: 3%;
+  margin-right: 8%;
+  list-style: none;
+  /* display: none; */
+}
+
+.link {
+  display: none;
+}
+
+.linkOn {
+  display: block;
+}
+
+.amineDiv nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2vmin;
+  /* display: none; */
+}
+
+.amineDiv nav ul li a:hover {
+  color: rgb(107, 68, 144);
+}
+
+.headerContent {
+  transform: translate(30%, 40%);
+}
+
+.headerContent > * {
+  margin: 15px 0px;
+}
+.gris {
+  color: hsl(0, 1%, 27%);
+  font-size: 3vw;
+  font-weight: bolder;
+}
+.headerContent .iAm {
+  font-size: 4vw;
+  font-weight: bolder;
+  color: hsl(0, 2%, 22%);
+}
+.headerContent p {
+  letter-spacing: 0.6vw;
+  font-size: 1.3vw;
+}
+.headerContent button {
+  color: white;
+  background-color: rgb(107, 68, 144);
+  padding: 15px 30px;
+  border: 0px;
+  border-radius: 25px;
+  font-size: 1vw;
+}
+
+/* ?  ABOUT ME SECTION*/
+
+.sectionAboutMe {
+  display: flex;
+  /* padding: 150px; */
+  justify-content: center;
+  flex-wrap: wrap;
+  /* padding: 50px; */
+  position: relative;
+  align-items: center;
+}
+.barberImage img {
+  width: 85%;
+  position: relative;
+  left: 20%;
+}
+.sectionAboutMeContent {
+  width: 50%;
+  margin-top: 30px;
+}
+.sectionAboutMeContent p {
+  /* max-width: 700px; */
+  font-size: 2vmin;
+}
+.sectionAboutMeContent h2 {
+  color: rgb(107, 68, 144);
+}
+.sectionAboutMeContent > * {
+  margin: 25px 0px;
+}
+
+.sectionAboutMeContent button {
+  color: rgb(107, 68, 144);
+  background-color: white;
+  border-radius: 25px;
+  padding: 15px 30px;
+  padding: 15px 30px;
+  padding: 15px 30px;
+  border: 0px;
+  border: 1px solid rgb(107, 68, 144);
+}
+
+/* ? SECTION SERVICE */
+
+.sectionService {
+  margin-top: 120px;
+  padding: 40px;
+}
+
+.sectionServiceContent {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.serviceBox {
+  border: 0.5px solid rgb(217, 214, 214);
+  padding: 40px 60px;
+  text-align: center;
+  margin: 15px;
+  margin-left: 30px;
+
+  & img {
+    width: 50%;
+  }
+}
+
+/* ? SECTION PORTFOLIO */
+
+.sectionPortfolio {
+  margin-top: 20px;
+  padding: 40px;
+}
+
+.sectionPortfolioContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  & img {
+    margin: 15px;
+    margin-right: 60px;
+  }
+}
+
+/* ? SECTION PRICING */
+
+.sectionPricing {
+  margin-top: 150px;
+  padding: 40px;
+}
+
+.sectionPricingContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pricingBox {
+  border: 0.5px solid rgb(217, 214, 214);
+  padding: 20px;
+  text-align: center;
+
+  & img {
+    width: 18%;
+  }
+
+  & span {
+    color: black;
+    font-weight: bold;
+    font-size: 4vmin;
+  }
+  & button {
+    color: white;
+    background-color: rgb(107, 68, 144);
+    padding: 15px 25px;
+    border: 0px;
+
+    /* font-size: 0.9vw; */
+  }
+  & .red {
+    color: red;
+  }
+}
+
+.pricingBox > * {
+  margin: 20px 0px;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  #burger {
+    font-size: 3vmin;
+  }
+
+  #headerBackground {
+    background-image: linear-gradient(
+        to bottom,
+        transparent,
+        transparent,
+        white
+      ),
+      url(../assets/images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  #headerBackground {
+    height: 500px;
+  }
+  .headerContent h1 {
+    font-size: 3vw;
+  }
+
+  .barberImage {
+    width: 40%;
+  }
+  .borderImage img {
+    width: 50%;
+    left: 0%;
+  }
+  .headerContent button {
+    font-size: 1.3vw;
+  }
+
+  .sectionAboutMe {
+    margin-top: 80px;
+  }
+  .sectionAboutMe img {
+    left: 0%;
+  }
+  .sectionService {
+    margin-top: 60px;
+  }
+  .sectionPricing {
+    margin-top: 60px;
+  }
+  .sectionAboutMeContent {
+    font-size: 1.8vmin;
+  }
+  .sectionPortfolioContent img {
+    margin: 10px;
+  }
+  .pricingBox {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 425px) {
+  #burger {
+    font-size: 3vmin;
+  }
+
+  #headerBackground {
+    height: 400px;
+  }
+  .headerContent {
+    transform: translate(30%, 20%);
+  }
+
+  .barberImage {
+    width: 40%;
+  }
+  .barberImage img {
+    left: 0%;
+  }
+
+  .headerContent button {
+    font-size: 1.3vw;
+  }
+
+  .sectionService {
+    margin-top: 60px;
+  }
+  .sectionPricing {
+    margin-top: 60px;
+  }
+
+  .sectionAboutMe {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionAboutMeContent {
+    font-size: 1.8vmin;
+    position: relative;
+    left: 9%;
+  }
+  .sectionPortfolioContent img {
+    margin: 10px;
+  }
+  .gris {
+    font-size: 5vw;
+  }
+  .headerContent > * {
+    margin: 5px 0px;
+  }
+  .headerContent .iAm {
+    font-size: 5vw;
+  }
+  .headerContent p {
+    font-size: 1.9vw;
+  }
+  .headerContent button {
+    font-size: 1.4vw;
+  }
+  .sectionPortfolioContent img {
+    /* width: 35%; */
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 425px) {
+  #headerBackground {
+    height: 250px;
+  }
+
+  .barberImage {
+    width: 50%;
+  }
+  .sectionAboutMeContent {
+    left: 3%;
+    & p {
+      font-size: 16px;
+    }
+  }
+
+  .headerContent {
+    transform: translate(26%, 20%);
+  }
+}

@@ -4,151 +4,182 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projet | Nouilles</title>
-    <link rel="stylesheet" href="../style/header.css"/>
-    <link rel="stylesheet" href="../style/hireme.css"/>
-    <link rel="stylesheet" href="../style/testmonial.css"/>
-    <link rel="stylesheet" href="../style/contact.css"/>
-    <link rel="stylesheet" href="../style/footer.css"/>
-    <link rel="stylesheet" href="../style/blog.css"/>
-
+    <link rel="stylesheet" href="../style/header.css" />
+    <link rel="stylesheet" href="../style/hireme.css" />
+    <link rel="stylesheet" href="../style/testmonial.css" />
+    <link rel="stylesheet" href="../style/contact.css" />
+    <link rel="stylesheet" href="../style/footer.css" />
+    <link rel="stylesheet" href="../style/blog.css" />
   </head>
   <body>
     <div class="container">
-      <header id="headerBackground">
-        <img src="../assets/images/header.jpg" width="400" alt="">
-        <nav>
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">Testimonial</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
-        </nav>
-        <div class="headerContent">
-          <h1>HI!</h1>
-          <h1>I am Ze Barber</h1>
-          <p>FRONTED WEB DESIGNER</p>
-          <button>Visit My Works</button>
-        </div>
-      </header>
-      <section class="sectionAboutMe">
-        <div class="barberImage"></div>
-        <div class="sectionAboutMeContent">
-          <p>Who Am I ?</p>
-          <h2>About me</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-            officiis saepe eaque fuga ad odio dignissimos culpa nostrum nemo
-            nulla recusandae impedit, vitae, ullam quod. Quas cum enim eveniet
-            sint neque corporis et minus velit quidem cupiditate id suscipit
-            aperiam facere autem veritatis voluptates, deserunt magni possimus
-            quaerat? Similique placeat, nemo repellat numquam cupiditate ut
-            alias unde dolores corporis ipsam.
-          </p>
-          <button>Download CV</button>
-        </div>
-      </section>
-      <section class="sectionService">
-        <div class="sectionTitle">
-          <p>What I Do ?</p>
-          <h2>Service</h2>
-        </div>
-        <div class="sect">
-          <div class="serviceBox">
-            <img
-              src="../assets/images/pencil-case.svg"
-              width="100"
-              height="100"
-              alt=""
-            />
-            <h3>adipisicing</h3>
+      <div class="amineDiv">
+        <header id="headerBackground">
+          <nav>
+            <ul id="navBar">
+              <li class="link"><a href="">Home</a></li>
+              <li class="link"><a href="">About</a></li>
+              <li class="link"><a href="">Portfolio</a></li>
+              <li class="link"><a href="">Testimonial</a></li>
+              <li class="link"><a href="">Blog</a></li>
+              <li class="link"><a href="">Contact</a></li>
+              <li><i id="cross" class="fa-solid fa-xmark"></i></li>
+              <li><i id="burger" class="fa-solid fa-bars"></i></li>
+            </ul>
+          </nav>
+          <div class="headerContent">
+            <h1 class="gris">HI!</h1>
+            <h1 class="iAm">I am Ze</h1>
+            <h1 class="iAm">Barber</h1>
+            <p>FRONTED WEB DESIGNER</p>
+            <button>Visit My Works</button>
           </div>
-          <div class="serviceBox">
-            <img
-              src="../assets/images/responsive.svg"
-              width="100"
-              height="100"
-              alt=""
-            />
-            <h3>Sapiente</h3>
+        </header>
+
+        <section class="sectionAboutMe">
+          <div class="barberImage">
+            <img src="../assets/images/man.png" alt="" />
           </div>
-          <div class="serviceBox">
-            <img
-              src="../assets/images/toolbox.svg"
-              width="100"
-              height="100"
-              alt=""
-            />
-            <h3>Placeat</h3>
+          <div class="sectionAboutMeContent">
+            <p>Who Am I ?</p>
+            <h2>About me</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              officiis saepe eaque fuga ad odio dignissimos culpa nostrum nemo
+              nulla recusandae impedit, vitae, ullam quod. Quas cum enim eveniet
+              sint neque corporis et minus velit quidem cupiditate id suscipit
+              aperiam facere autem veritatis voluptates, deserunt magni possimus
+              quaerat? Similique placeat, nemo repellat numquam cupiditate ut
+              alias unde dolores corporis ipsam.Similique placeat, nemo repellat
+              numquam cupiditate ut alias unde dolores corporis ipsam.
+            </p>
+            <button>Download CV</button>
           </div>
-          <div class="serviceBox">
-            <img
-              src="../assets/images/analytics.svg"
-              width="100"
-              height="100"
-              alt=""
-            />
-            <h3>Lusto</h3>
+        </section>
+        <section class="sectionService">
+          <div class="sectionTitle">
+            <p>What I Do ?</p>
+            <h2>Service</h2>
           </div>
-        </div>
-      </section>
-      <section class="sectionPortfolio">
-        <div class="sectionTitle">
-          <p>What I Did ?</p>
-          <h2>Portfolio</h2>
-        </div>
-        <div class="sectionPortfolioContent">
-          <img src="../assets/images/folio-1.jpg" width="300" alt="" />
-          <img src="../assets/images/folio-2.jpg" width="300" alt="" />
-          <img src="../assets/images/folio-3.jpg" width="300" alt="" />
-        </div>
-      </section>
-      <section class="sectionPricing">
-        <div class="sectionTitle">
-          <p>How Much I charge</p>
-          <h2>My Pricing</h2>
-        </div>
-        <div class="sectionPricingContent">
-          <div class="pricingBox">
-            <img src="../assets/images/scooter.svg" width="120" alt="" />
-            <h2>Free</h2>
-            <p>accusamus reprehenderit</p>
-            <p>provident dolorem</p>
-            <p>quos neque</p>
-            <p>fugiat quibusdam</p>
-            <p>X</p>
-            <p>X</p>
-            <span><p>$0.OO/Month</p></span>
-            <button>Subscribe</button>
+          <div class="sectionServiceContent">
+            <div class="serviceBox">
+              <img
+                src="../assets/images/pencil-case.svg"
+                width="100"
+                height="100"
+                alt=""
+              />
+              <h3>adipisicing</h3>
+            </div>
+            <div class="serviceBox">
+              <img
+                src="../assets/images/responsive.svg"
+                width="100"
+                height="100"
+                alt=""
+              />
+              <h3>Sapiente</h3>
+            </div>
+            <div class="serviceBox">
+              <img
+                src="../assets/images/toolbox.svg"
+                width="100"
+                height="100"
+                alt=""
+              />
+              <h3>Placeat</h3>
+            </div>
+            <div class="serviceBox">
+              <img
+                src="../assets/images/analytics.svg"
+                width="100"
+                height="100"
+                alt=""
+              />
+              <h3>Lusto</h3>
+            </div>
           </div>
-          <div class="pricingBox">
-            <img src="../assets/images/shipped.svg" width="120" alt="" />
-            <h2>Basic</h2>
-            <p>accusamus reprehenderit</p>
-            <p>provident dolorem</p>
-            <p>quos neque</p>
-            <p>fugiat quibusdam</p>
-            <p>accusamus laboriosam</p>
-            <p>X</p>
-            <span><p>$9.99/Month</p></span>
-            <button>Subscribe</button>
+        </section>
+        <section class="sectionPortfolio">
+          <div class="sectionTitle">
+            <p>What I Did ?</p>
+            <h2>Portfolio</h2>
           </div>
-          <div class="pricingBox">
-            <img src="../assets/images/startup.svg" width="120" alt="" />
-            <h2>Premium</h2>
-            <p>accusamus reprehenderit</p>
-            <p>provident dolorem</p>
-            <p>quos neque</p>
-            <p>fugiat quibusdam</p>
-            <p>accusamus laboriosam</p>
-            <p>inventore omnis</p>
-            <span><p>$99.9/Month</p></span>
-            <button>Subscribe</button>
+          <div class="sectionPortfolioContent">
+            <div class="wrapper">
+              <img src="../assets/images/folio-1.jpg" width="300" alt="" />
+              <div class="contentPortfolio">
+                <h1>Web Designing</h1>
+                <p>Category: Web Templates</p>
+              </div>
+            </div>
+            <div class="wrapper">
+              <img
+                class="test"
+                src="../assets/images/folio-2.jpg"
+                width="300"
+                alt=""
+              />
+              <div class="contentPortfolio">
+                <h1>Web Designing</h1>
+                <p>Category: Web Templates</p>
+              </div>
+            </div>
+            <div class="wrapper">
+              <img src="../assets/images/folio-3.jpg" width="300" alt="" />
+              <div class="contentPortfolio">
+                <h1>Web Designing</h1>
+                <p>Category: Web Templates</p>
+              </div>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+        <section class="sectionPricing">
+          <div class="sectionTitle">
+            <p>How Much I charge</p>
+            <h2>My Pricing</h2>
+          </div>
+          <div class="sectionPricingContent">
+            <div class="pricingBox">
+              <img src="../assets/images/scooter.svg" width="120" alt="" />
+              <h2>Free</h2>
+              <p>accusamus reprehenderit</p>
+              <p>provident dolorem</p>
+              <p>quos neque</p>
+              <p>fugiat quibusdam</p>
+              <p class="red">X</p>
+              <p class="red">X</p>
+              <span><p>$0.00/Month</p></span>
+              <button>Subscribe</button>
+            </div>
+            <div class="pricingBox">
+              <img src="../assets/images/shipped.svg" width="120" alt="" />
+              <h2>Basic</h2>
+              <p>accusamus reprehenderit</p>
+              <p>provident dolorem</p>
+              <p>quos neque</p>
+              <p>fugiat quibusdam</p>
+              <p>accusamus laboriosam</p>
+              <p class="red">X</p>
+              <span><p>$9.99/Month</p></span>
+              <button>Subscribe</button>
+            </div>
+            <div class="pricingBox">
+              <img src="../assets/images/startup.svg" width="120" alt="" />
+              <h2>Premium</h2>
+              <p>accusamus reprehenderit</p>
+              <p>provident dolorem</p>
+              <p>quos neque</p>
+              <p>fugiat quibusdam</p>
+              <p>accusamus laboriosam</p>
+              <p>inventore omnis</p>
+              <span><p>$99.9/Month</p></span>
+              <button>Subscribe</button>
+            </div>
+          </div>
+        </section>
+      </div>
+
       <section class="sectionHireMe">
         <div>
           <p><b>Want to work with me ?</b></p>
@@ -168,7 +199,8 @@
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
                 suscipit excepturi explicabo corporis dolorum quasi rem fugit
-                perferendis a. Aut consequuntur alias laboriosam rerum inventore.
+                perferendis a. Aut consequuntur alias laboriosam rerum
+                inventore.
               </p>
               <h3>Emily Reb</h3>
             </div>
@@ -179,7 +211,8 @@
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
                 suscipit excepturi explicabo corporis dolorum quasi rem fugit
-                perferendis a. Aut consequuntur alias laboriosam rerum inventore.
+                perferendis a. Aut consequuntur alias laboriosam rerum
+                inventore.
               </p>
               <h3>Emily Reb</h3>
             </div>
@@ -201,10 +234,10 @@
               <p class="grayColor">By:Admin ❤ 234 🗨 123</p>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo
-                itaque nulla asperiores assumenda perspiciatis voluptatibus, unde
-                perferendis tempora ut delectus architecto est repellat beatae,
-                illo fugit sunt laborum sapiente cupiditate suscipit! Tenetur ex
-                ipsa iste.
+                itaque nulla asperiores assumenda perspiciatis voluptatibus,
+                unde perferendis tempora ut delectus architecto est repellat
+                beatae, illo fugit sunt laborum sapiente cupiditate suscipit!
+                Tenetur ex ipsa iste.
               </p>
               <b
                 >Necessitatibus nihil impedit! Ex nisi eveniet, dolor aliquid
@@ -214,21 +247,18 @@
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
                 quibusdam assumenda consequuntur ratione. Libero voluptatibus
                 blanditiis, architecto facilis rerum aut similique, delectus
-                sapiente officiis aliquam laborum ab sint tempora aperiam suscipit
-                est, eaque illo perspiciatis?
+                sapiente officiis aliquam laborum ab sint tempora aperiam
+                suscipit est, eaque illo perspiciatis?
               </p>
               <a href="">Read more >></a>
             </div>
           </div>
           <div class="blogBox">
-
             <div class="blogBoxContent boximg">
-
               <img src="../assets/images/img-2.jpg" width="300" alt="" />
             </div>
-            
-            <div class="blogBoxContent blogBoxText">
 
+            <div class="blogBoxContent blogBoxText">
               <h3>Explicabo illo</h3>
               <p class="grayColor">By:Admin ❤ 456 🗨 264</p>
               <p>
@@ -236,9 +266,9 @@
                 voluptatibus aspernatur perspiciatis perferendis assumenda quasi
                 doloremque enim temporibus, ad commodi consectetur eos quod,
                 laborum, aut deserunt illum nisi? Officia aliquid quo iure earum
-                voluptas ratione, consectetur nobis, aliquam distinctio molestiae
-                deserunt, natus cum fuga laboriosam itaque labore alias ex
-                provident.
+                voluptas ratione, consectetur nobis, aliquam distinctio
+                molestiae deserunt, natus cum fuga laboriosam itaque labore
+                alias ex provident.
               </p>
               <a href="">Read more >></a>
             </div>
@@ -258,7 +288,7 @@
             rows="10"
             placeholder="Write Something"
           ></textarea>
-          <br>
+          <br />
           <button>Send Message</button>
         </form>
       </section>
@@ -276,7 +306,7 @@
           <a href="https://twitter.com">
             <img src="../assets/images/twitter.svg" width="35" alt="" />
           </a>
-          
+
           <a href="https://pinterest.com">
             <img src="../assets/images/pinterest.svg" width="35" alt="" />
           </a>
@@ -287,5 +317,14 @@
         </div>
       </footer>
     </div>
+    <script
+      src="https://kit.fontawesome.com/d4fb7efd92.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="main.js"></script>
   </body>
 </html>
