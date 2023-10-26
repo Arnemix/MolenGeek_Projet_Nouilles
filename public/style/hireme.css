@@ -5,19 +5,25 @@ body {
 
 .sectionHireMe {
     display: flex;
-    height: 100px;
+    height: auto;
     background-color: rgb(105,90,166);
     color: white;
     & button {
-        margin-top: 5%;
-        position: sticky;
+        position: relative;
         font-weight: bold;
-        border-radius: 5px;
         border: none;
+        margin: 0 auto;
         padding: 2%;
+        border-radius: 2px;
     }
     & div {
         margin-left: 10%;
         width: 50%;
     }
+}
+
+.hireMeButtonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
