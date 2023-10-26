@@ -3,18 +3,57 @@
 }
 
 .sectionBlogContent {
+    margin-left: 10%;
+    margin-right: 10%;
 
 }
 
 .blogBox {
     display: flex;
+    border: 1px solid lightgray;
+    margin-bottom: 3%;
 }
 
+.grayColor {
+    color: gray;
+}
+
+
 .blogBoxContent{
-    padding: 3%;
-    & img {
-        height: 90%;
-        padding: 0;
-        width: 30;
+    font-size: 80%;
+    & a {
+        text-decoration: none;
     }
+    width: 20%;
+    & h3 {
+        color: rgb(105,90,166);;
+    }
+    & img {
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.boximg {
+    width: 30%;
+}
+
+.blogBoxText {
+    width: 70%;
+    margin: 2%;
+}
+
+/* ------------- */
+.sectionTitle {
+    margin-top: 6%;
+}
+
+/* ------------ Media queries */
+
+@media (max-width:900px) {
+    .blogBox {
+        flex-wrap: wrap;
+    }
+
 }

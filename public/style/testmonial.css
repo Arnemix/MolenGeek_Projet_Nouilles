@@ -1,6 +1,5 @@
 .sectionTestmonial {
-    border: 1px solid black;
-    & h2 {
+    & h2, h3 {
         color: rgb(105, 90, 166);
     }
     & p {
@@ -16,14 +15,12 @@
 
 .sectionTestmonialContent {
     display: flex;
-    border: 1px solid black;
 }
 
 .testmonialBox {
     padding: 3%;
     height: 20%;
     width: 50%;
-    border: 1px solid black;
     display: flex;
     & p {
         text-align: left;
@@ -33,5 +30,22 @@
         border-radius: 50%;
         padding: 2%;
         height: 10%;    
+    }
+}
+
+.testmonialBoxText {
+    border: 1px;
+    display: block;
+}
+
+
+/* ------------ Media queries ------ */
+@media (max-width: 630px) {
+    .sectionTestmonialContent {
+        flex-wrap: wrap;
+    }
+    .testmonialBox {
+        display: flex;
+        width: 100%;
     }
 }
