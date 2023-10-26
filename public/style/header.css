@@ -229,6 +229,20 @@ nav ul li a {
   }
 
   #headerBackground {
+    background-image: linear-gradient(
+        to bottom,
+        transparent,
+        transparent,
+        white
+      ),
+      url(../assets/images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  #headerBackground {
     height: 500px;
   }
   .headerContent h1 {
@@ -339,7 +353,7 @@ nav ul li a {
   }
 
   .barberImage {
-    width: 55%;
+    width: 50%;
   }
   .sectionAboutMeContent {
     left: 3%;
@@ -347,4 +361,9 @@ nav ul li a {
       font-size: 16px;
     }
   }
+
+  .headerContent {
+    transform: translate(26%, 20%);
+  }
+  
 }
