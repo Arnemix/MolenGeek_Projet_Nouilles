@@ -1,0 +1,54 @@
+.sectionTestmonial {
+    & h2, h3 {
+        color: rgb(105, 90, 166);
+    }
+    & p {
+        color: rgb(134, 134, 134);
+    }
+    & h2,
+    p {
+        text-align: center;
+    }
+}
+
+/* ------------ */
+
+.sectionTestmonialContent {
+    display: flex;
+}
+
+.testmonialBox {
+    /* justify-content: space-evenly; */
+    padding: 3%;
+    height: 20%;
+    width: 50%;
+    display: flex;
+    & p {
+        text-align: left;
+        color: black;
+    }
+    & img {
+        border-radius: 50%;
+        padding: 2%;
+        height: 10%; 
+        transform: translateX(+50%) translateY(15px);
+    }
+}
+
+.testmonialBoxText {
+    border: 1px solid lightgray;
+    display: block;
+    padding-left: 18%;
+}
+
+
+/* ------------ Media queries ------ */
+@media (max-width: 630px) {
+    .sectionTestmonialContent {
+        flex-wrap: wrap;
+    }
+    .testmonialBox {
+        display: flex;
+        width: 100%;
+    }
+}

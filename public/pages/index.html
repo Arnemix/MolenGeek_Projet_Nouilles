@@ -4,17 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projet | Nouilles</title>
-    <link rel="stylesheet" href="../style/header.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="../style/header.css"/>
+    <link rel="stylesheet" href="../style/hireme.css"/>
+    <link rel="stylesheet" href="../style/testmonial.css"/>
+    <link rel="stylesheet" href="../style/contact.css"/>
+    <link rel="stylesheet" href="../style/footer.css"/>
+    <link rel="stylesheet" href="../style/blog.css"/>
+
   </head>
   <body>
     <div class="container">
       <header id="headerBackground">
+        <img src="../assets/images/header.jpg" width="400" alt="">
         <nav>
           <ul>
             <li><a href="">Home</a></li>
@@ -176,11 +177,11 @@
       <section class="sectionHireMe">
         <div>
           <p><b>Want to work with me ?</b></p>
-          <p>Always feel Free to Contact [&] Hire me</p>
+          <p>Always feel Free to Contact & Hire me</p>
         </div>
-        <div><button>Hire Me</button></div>
+        <div class="hireMeButtonDiv"><button>Hire Me</button></div>
       </section>
-      <section class="sectoinTestmonial">
+      <section class="sectionTestmonial">
         <div class="sectionTitle">
           <p>What Think Client About Me ?</p>
           <h2>Testmonial</h2>
@@ -188,64 +189,84 @@
         <div class="sectionTestmonialContent">
           <div class="testmonialBox">
             <img src="../assets/images/avatar2.jpg" width="100" alt="" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-              suscipit excepturi explicabo corporis dolorum quasi rem fugit
-              perferendis a. Aut consequuntur alias laboriosam rerum inventore.
-            </p>
-            <h3>Emily Reb</h3>
+            <div class="testmonialBoxText">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                suscipit excepturi explicabo corporis dolorum quasi rem fugit
+                perferendis a. Aut consequuntur alias laboriosam rerum inventore.
+              </p>
+              <h3>Emily Reb</h3>
+            </div>
           </div>
           <div class="testmonialBox">
             <img src="../assets/images/avatar3.jpg" width="100" alt="" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-              suscipit excepturi explicabo corporis dolorum quasi rem fugit
-              perferendis a. Aut consequuntur alias laboriosam rerum inventore.
-            </p>
-            <h3>Emily Reb</h3>
+            <div class="testmonialBoxText">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                suscipit excepturi explicabo corporis dolorum quasi rem fugit
+                perferendis a. Aut consequuntur alias laboriosam rerum inventore.
+              </p>
+              <h3>Emily Reb</h3>
+            </div>
           </div>
         </div>
       </section>
       <section class="sectionBlog">
+        <div class="sectionTitle">
+          <p>Recent Posts?</p>
+          <h2>Blog</h2>
+        </div>
         <div class="sectionBlogContent">
           <div class="blogBox">
-            <img src="../assets/images/img-1.jpg" width="300" alt="" />
-            <h3>Consectetur adipisicing elit</h3>
-            <p>By:Admin ❤ 234 🗨 123</p>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo
-              itaque nulla asperiores assumenda perspiciatis voluptatibus, unde
-              perferendis tempora ut delectus architecto est repellat beatae,
-              illo fugit sunt laborum sapiente cupiditate suscipit! Tenetur ex
-              ipsa iste.
-            </p>
-            <b
-              >Necessitatibus nihil impedit! Ex nisi eveniet, dolor aliquid
-              consequuntur repudiandae.</b
-            >
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
-              quibusdam assumenda consequuntur ratione. Libero voluptatibus
-              blanditiis, architecto facilis rerum aut similique, delectus
-              sapiente officiis aliquam laborum ab sint tempora aperiam suscipit
-              est, eaque illo perspiciatis?
-            </p>
-            <a href="">Read more >></a>
+            <div class="blogBoxContent boximg">
+              <img src="../assets/images/img-1.jpg" width="300" alt="" />
+            </div>
+            <div class="blogBoxContent blogBoxText">
+              <h3>Consectetur adipisicing elit</h3>
+              <p class="grayColor">By:Admin ❤ 234 🗨 123</p>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo
+                itaque nulla asperiores assumenda perspiciatis voluptatibus, unde
+                perferendis tempora ut delectus architecto est repellat beatae,
+                illo fugit sunt laborum sapiente cupiditate suscipit! Tenetur ex
+                ipsa iste.
+              </p>
+              <b
+                >Necessitatibus nihil impedit! Ex nisi eveniet, dolor aliquid
+                consequuntur repudiandae.</b
+              >
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
+                quibusdam assumenda consequuntur ratione. Libero voluptatibus
+                blanditiis, architecto facilis rerum aut similique, delectus
+                sapiente officiis aliquam laborum ab sint tempora aperiam suscipit
+                est, eaque illo perspiciatis?
+              </p>
+              <a href="">Read more >></a>
+            </div>
           </div>
           <div class="blogBox">
-            <img src="../assets/images/img-2.jpg" width="300" alt="" />
-            <h3>Explicabo illo</h3>
-            <p>By:Admin ❤ 456 🗨 264</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint
-              voluptatibus aspernatur perspiciatis perferendis assumenda quasi
-              doloremque enim temporibus, ad commodi consectetur eos quod,
-              laborum, aut deserunt illum nisi? Officia aliquid quo iure earum
-              voluptas ratione, consectetur nobis, aliquam distinctio molestiae
-              deserunt, natus cum fuga laboriosam itaque labore alias ex
-              provident.
-            </p>
-            <a href="">Read more >></a>
+
+            <div class="blogBoxContent boximg">
+
+              <img src="../assets/images/img-2.jpg" width="300" alt="" />
+            </div>
+            
+            <div class="blogBoxContent blogBoxText">
+
+              <h3>Explicabo illo</h3>
+              <p class="grayColor">By:Admin ❤ 456 🗨 264</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint
+                voluptatibus aspernatur perspiciatis perferendis assumenda quasi
+                doloremque enim temporibus, ad commodi consectetur eos quod,
+                laborum, aut deserunt illum nisi? Officia aliquid quo iure earum
+                voluptas ratione, consectetur nobis, aliquam distinctio molestiae
+                deserunt, natus cum fuga laboriosam itaque labore alias ex
+                provident.
+              </p>
+              <a href="">Read more >></a>
+            </div>
           </div>
         </div>
       </section>
@@ -262,19 +283,32 @@
             rows="10"
             placeholder="Write Something"
           ></textarea>
+          <br>
           <button>Send Message</button>
         </form>
       </section>
-
       <footer>
-        <hr />
         <small>Copyright 2022 © Mohamed Amine</small>
         <div>
-          <img src="../assets/images/fcb.svg" width="35" alt="" />
-          <img src="../assets/images/twitter.svg" width="35" alt="" />
-          <img src="../assets/images/gplus.svg" width="35" alt="" />
-          <img src="../assets/images/pinterest.svg" width="35" alt="" />
-          <img src="../assets/images/insta.svg" width="35" alt="" />
+          <a href="https://facebook.com">
+            <img src="../assets/images/fcb.svg" width="35" alt="" />
+          </a>
+
+          <a href="https://google.com">
+            <img src="../assets/images/gplus.svg" width="35" alt="" />
+          </a>
+
+          <a href="https://twitter.com">
+            <img src="../assets/images/twitter.svg" width="35" alt="" />
+          </a>
+          
+          <a href="https://pinterest.com">
+            <img src="../assets/images/pinterest.svg" width="35" alt="" />
+          </a>
+
+          <a href="https://instagram.com">
+            <img src="../assets/images/insta.svg" width="35" alt="" />
+          </a>
         </div>
       </footer>
     </div>
