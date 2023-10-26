@@ -24,6 +24,7 @@ form {
         color: rgb(105,90,166);
         border: 2px solid rgb(105,90,166);
         border-radius: 8px;
+        transition: 1s;
         &:hover {
             background-color: rgb(105,90,166);
             color: white;
